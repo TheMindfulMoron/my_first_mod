@@ -1,6 +1,8 @@
 package net.themindfulmoron.test;
 
 import net.fabricmc.api.ModInitializer;
+import net.themindfulmoron.test.block.ModBlocks;
+import net.themindfulmoron.test.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -12,6 +14,10 @@ public class TalonModTest implements ModInitializer {
 	@Override
 	public void onInitialize() {
 
-		LOGGER.info("Hello Fabric world!");
+
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
+
+
 	}
 }

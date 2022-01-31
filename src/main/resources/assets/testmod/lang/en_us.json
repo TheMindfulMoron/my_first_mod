@@ -1,0 +1,9 @@
+{
+  "item.testmod.ascendant_shard": "Ascendant Shard",
+  "item.testmod.enhancement_core": "Enhancement Core",
+
+  "block.testmod.dirt_wyvernlair": "Wyvern Lair Dirt",
+  "block.testmod.woodplanks_wyvernlair": "Wyvern Lair Planks",
+
+  "itemGroup.testmod.mocreatures": "MoCreatures Mod"
+}
